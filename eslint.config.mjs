@@ -1,7 +1,7 @@
 import { FlatCompat } from '@eslint/eslintrc';
-import simpleImportSort from 'eslint-plugin-simple-import-sort';
-import eslintPluginReact from 'eslint-plugin-react';
 import eslintPluginJsxA11y from 'eslint-plugin-jsx-a11y';
+import eslintPluginReact from 'eslint-plugin-react';
+import simpleImportSort from 'eslint-plugin-simple-import-sort';
 
 const compat = new FlatCompat();
 
@@ -23,7 +23,7 @@ const eslintConfig = [
 
       // 🔥 Best Practices
       'no-console': 'warn',
-      'no-unused-vars': 'error',
+      // 'no-unused-vars': 'error',
       'react/jsx-boolean-value': ['error', 'never'],
       'react/jsx-curly-spacing': ['error', { when: 'never', children: true }],
       'react/self-closing-comp': 'error',

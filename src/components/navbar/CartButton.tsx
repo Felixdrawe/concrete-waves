@@ -1,3 +1,3 @@
-export default function CartButton() {
-  return <button>Cart</button>;
+export default function FavouritesButton() {
+  return <button>Favourites</button>;
 }
