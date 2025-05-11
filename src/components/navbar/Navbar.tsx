@@ -1,6 +1,6 @@
 import Container from '../global/Container';
 import DarkMode from './DarkMode';
-import FavouriteButton from './FavouriteButton';
+import FavouriteButton from './FavoriteButton';
 import LinksDropdown from './LinksDropdown';
 import LocateButton from './LocateButton';
 import Logo from './Logo';

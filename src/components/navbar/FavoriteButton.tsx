@@ -1,7 +1,7 @@
 import { MapPlus } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-async function FavouritesButton() {
+async function FavoritesButton() {
   // temp
   const numItems = 9;
   return (
@@ -20,4 +20,4 @@ async function FavouritesButton() {
     </Button>
   );
 }
-export default FavouritesButton;
+export default FavoritesButton;
